@@ -16,19 +16,207 @@
         android:text="@string/enter_message" />
     <EditText 	
         android:layout_below="@id/enter_message"
-        android:layout_toLeftOf="@+id/send_message"
         android:id="@+id/edit_message"
         android:layout_width="wrap_content" 
         android:layout_height="wrap_content"
         android:hint='@string/edit_message'/>
     <Button
         android:layout_below="@id/enter_message"
-        android:id="@id/send_message"
+        android:layout_toLeftOf="@id/edit_message"
+        android:layout_alignParentRight="true"
+        android:id="@+id/send_message"
         android:orientation="horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/send_message"
         android:onClick="sendMessage"/>
+    
+   		<ScrollView
+        android:layout_below="@id/edit_message"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:id="@+id/scroll" >
+        
+        <LinearLayout 
+            android:layout_height="wrap_content" 
+            android:layout_width="fill_parent"
+            android:orientation="vertical">
+        
+    		<TextView 
+    		    android:id="@+id/scroll_text"
+    		    android:layout_height="wrap_content" 
+    		    android:layout_width="fill_parent"
+    		    android:text="@string/scroll_text"
+    		    android:textSize = "@dimen/message_font_size"/>
+    		<View
+    		    android:layout_width="fill_parent"
+    		    android:layout_height="2dp"
+    		    android:background = "#ffa500"
+    		    />
+    		<TextView 
+    		    android:id="@id/scroll_text"
+    		    android:layout_height="wrap_content" 
+    		    android:layout_width="fill_parent"
+    		    android:text="@string/scroll_text"
+    		    android:textSize = "@dimen/message_font_size"/>
+    		<View
+    		    android:layout_width="fill_parent"
+    		    android:layout_height="2dp"
+    		    android:background = "#ffa500"
+    		    />
+    		<TextView 
+    		    android:id="@id/scroll_text"
+    		    android:layout_height="wrap_content" 
+    		    android:layout_width="fill_parent"
+    		    android:text="@string/scroll_text"
+    		    android:textSize = "@dimen/message_font_size"/>
+    		<View
+    		    android:layout_width="fill_parent"
+    		    android:layout_height="2dp"
+    		    android:background = "#ffa500"
+    		    />
+    		<TextView 
+    		    android:id="@id/scroll_text"
+    		    android:layout_height="wrap_content" 
+    		    android:layout_width="fill_parent"
+    		    android:text="@string/scroll_text"
+    		    android:textSize = "@dimen/message_font_size"/>
+    		<View
+    		    android:layout_width="fill_parent"
+    		    android:layout_height="2dp"
+    		    android:background = "#ffa500"
+    		    />
+    		<TextView 
+    		    android:id="@id/scroll_text"
+    		    android:layout_height="wrap_content" 
+    		    android:layout_width="fill_parent"
+    		    android:text="@string/scroll_text"
+    		    android:textSize = "@dimen/message_font_size"/>
+    		<View
+    		    android:layout_width="fill_parent"
+    		    android:layout_height="2dp"
+    		    android:background = "#ffa500"
+    		    />
+    		<TextView 
+    		    android:id="@id/scroll_text"
+    		    android:layout_height="wrap_content" 
+    		    android:layout_width="fill_parent"
+    		    android:text="@string/scroll_text"
+    		    android:textSize = "@dimen/message_font_size"/>
+    		<View
+    		    android:layout_width="fill_parent"
+    		    android:layout_height="2dp"
+    		    android:background = "#ffa500"
+    		    />
+    		<TextView 
+    		    android:id="@id/scroll_text"
+    		    android:layout_height="wrap_content" 
+    		    android:layout_width="fill_parent"
+    		    android:text="@string/scroll_text"
+    		    android:textSize = "@dimen/message_font_size"/>
+    		<View
+    		    android:layout_width="fill_parent"
+    		    android:layout_height="2dp"
+    		    android:background = "#ffa500"
+    		    />
+    		<TextView 
+    		    android:id="@id/scroll_text"
+    		    android:layout_height="wrap_content" 
+    		    android:layout_width="fill_parent"
+    		    android:text="@string/scroll_text"
+    		    android:textSize = "@dimen/message_font_size"/>
+    		<View
+    		    android:layout_width="fill_parent"
+    		    android:layout_height="2dp"
+    		    android:background = "#ffa500"
+    		    />
+    		<TextView 
+    		    android:id="@id/scroll_text"
+    		    android:layout_height="wrap_content" 
+    		    android:layout_width="fill_parent"
+    		    android:text="@string/scroll_text"
+    		    android:textSize = "@dimen/message_font_size"/>
+    		<View
+    		    android:layout_width="fill_parent"
+    		    android:layout_height="2dp"
+    		    android:background = "#ffa500"
+    		    />
+    		<TextView 
+    		    android:id="@id/scroll_text"
+    		    android:layout_height="wrap_content" 
+    		    android:layout_width="fill_parent"
+    		    android:text="@string/scroll_text"
+    		    android:textSize = "@dimen/message_font_size"/>
+    		<View
+    		    android:layout_width="fill_parent"
+    		    android:layout_height="2dp"
+    		    android:background = "#ffa500"
+    		    />
+    		<TextView 
+    		    android:id="@id/scroll_text"
+    		    android:layout_height="wrap_content" 
+    		    android:layout_width="fill_parent"
+    		    android:text="@string/scroll_text"
+    		    android:textSize = "@dimen/message_font_size"/>
+    		<View
+    		    android:layout_width="fill_parent"
+    		    android:layout_height="2dp"
+    		    android:background = "#ffa500"
+    		    />
+    		<TextView 
+    		    android:id="@id/scroll_text"
+    		    android:layout_height="wrap_content" 
+    		    android:layout_width="fill_parent"
+    		    android:text="@string/scroll_text"
+    		    android:textSize = "@dimen/message_font_size"/>
+    		<View
+    		    android:layout_width="fill_parent"
+    		    android:layout_height="2dp"
+    		    android:background = "#ffa500"
+    		    />
+    		<TextView 
+    		    android:id="@id/scroll_text"
+    		    android:layout_height="wrap_content" 
+    		    android:layout_width="fill_parent"
+    		    android:text="@string/scroll_text"
+    		    android:textSize = "@dimen/message_font_size"/>
+    		<View
+    		    android:layout_width="fill_parent"
+    		    android:layout_height="2dp"
+    		    android:background = "#ffa500"
+    		    />
+    		<TextView 
+    		    android:id="@id/scroll_text"
+    		    android:layout_height="wrap_content" 
+    		    android:layout_width="fill_parent"
+    		    android:text="@string/scroll_text"
+    		    android:textSize = "@dimen/message_font_size"/>
+    		<View
+    		    android:layout_width="fill_parent"
+    		    android:layout_height="2dp"
+    		    android:background = "#ffa500"
+    		    />
+    		<TextView 
+    		    android:id="@id/scroll_text"
+    		    android:layout_height="wrap_content" 
+    		    android:layout_width="fill_parent"
+    		    android:text="@string/scroll_text"
+    		    android:textSize = "@dimen/message_font_size"/>
+    		<View
+    		    android:layout_width="fill_parent"
+    		    android:layout_height="2dp"
+    		    android:background = "#ffa500"
+    		    />
+    		
+    		
+    		
+    	</LinearLayout>
+    
+    
+    
+        
+        
+        </ScrollView>
 
 
 </RelativeLayout>

@@ -8,5 +8,6 @@
     <string name="send_message">Submit</string>
     <string name="edit_message">Type message</string>
     <string name="string_test">String Test</string>
-
+    <string name="button_scroll">Button!</string>
+	<string name="scroll_text">This is a message!</string>
 </resources>
