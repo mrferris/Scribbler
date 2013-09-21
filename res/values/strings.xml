@@ -4,5 +4,8 @@
     <string name="app_name">MHacks</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="enter_message">Enter message to display:</string>
+    <string name="send_message">Submit</string>
+    <string name="edit_message">Type message</string>
 
 </resources>
