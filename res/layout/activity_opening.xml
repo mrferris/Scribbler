@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:weightSum="1">
+	<TextView
+	    android:id="@+id/scribble_title"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="45dp"
+		android:text="Scribble"
+		android:gravity="center"
+		android:textSize="40sp" />
+	<ImageView
+	    android:contentDescription="@string/desc"
+	    android:id="@+id/splash_logo"
+	    android:layout_marginBottom="100dp"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:src="@drawable/splash_logo"
+	    android:layout_below="@id/scribble_title"
+	    android:gravity="center"
+	    android:adjustViewBounds="true"
+	   />
+	
+		<TextView
+	    android:id="@+id/loading_gps_string"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="True"
+	    android:gravity="center"
+	    android:text="@string/move_around"
+	    android:layout_marginBottom="30dp"
+	    />
+		
+	<View
+	    android:layout_width="fill_parent"
+		android:layout_height="5dp"
+		android:background="#562219"
+		android:layout_above="@id/loading_gps_string" 
+		android:layout_marginBottom="45dp"/>
+	
+	<TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@id/loading_gps_string"
+	    android:textSize="14sp"
+	    android:text="@string/loading_gps_string" 
+	    android:gravity="center"
+	/>
+	
+	    
+</RelativeLayout>

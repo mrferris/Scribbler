@@ -7,55 +7,46 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".HomeActivity1" >
-
-    <TextView
-        android:id="@+id/enter_message"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:text="@string/enter_message" />
-
-    <TextView
-        android:id="@+id/address"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:indeterminate="true"  />
-
+    
+       <Button
+         android:id="@+id/send_button"
+         android:layout_height="wrap_content"
+         android:layout_width="fill_parent"
+         android:layout_alignParentBottom="true"
+         android:text="@string/send_message"
+         android:onClick="submitButtonPress"
+         />
+     
     <EditText 	
-        android:layout_below="@id/enter_message"
-        android:layout_toLeftOf="@+id/send_message"
-        android:id="@+id/edit_message"
-        android:layout_width="wrap_content" 
+        android:id="@+id/text_input"
+        android:hint="@string/text_input_hint"
         android:layout_height="wrap_content"
-        android:hint='@string/edit_message'/>
-
-    <Button
-        android:id="@id/send_message"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_above="@id/send_button"
+       />
+    <ListView
+        android:id="@+id/message_list_view"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/text_input"
+        />
+    
+    
+    
+    
+    
+    
+<!--  
+    <TextView
+        android:id="@+id/text_enter_message"
+        android:text="@string/text_enter_message"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/enter_message"
-        android:layout_below="@+id/enter_message"
-        android:layout_marginTop="26dp"
-        android:onClick="sendMessage"
-        android:orientation="horizontal"
-        android:text="@string/send_message" />
+        android:layout_above="@id/text_input"
+        />-->
 
-    <ScrollView
-        android:id="@+id/scrollView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_below="@id/send_message" >
+    
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical" >
-
-        </LinearLayout>
-    </ScrollView>
+   
 
 </RelativeLayout>
