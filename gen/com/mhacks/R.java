@@ -47,13 +47,12 @@ public final class R {
     public static final class string {
         public static final int action_settings=0x7f050001;
         public static final int app_name=0x7f050000;
-        public static final int desc=0x7f050008;
-        public static final int hello_world=0x7f050002;
-        public static final int loading_gps_string=0x7f050006;
-        public static final int move_around=0x7f050007;
-        public static final int send_message=0x7f050004;
-        public static final int text_enter_message=0x7f050003;
-        public static final int text_input_hint=0x7f050005;
+        public static final int desc=0x7f050006;
+        public static final int loading_gps_string=0x7f050004;
+        public static final int move_around=0x7f050005;
+        public static final int scribbler_title=0x7f050007;
+        public static final int send_message=0x7f050002;
+        public static final int text_input_hint=0x7f050003;
     }
     public static final class style {
         /** 

@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Scribble</string>
+    <string name="app_name">Scribbler</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="text_enter_message">Enter message to display:</string>
     <string name="send_message">Submit</string>
     <string name="text_input_hint">Type message</string>
-    <string name="loading_gps_string">Social, anonymous, geolocation-based chat.</string>
+    <string name="loading_gps_string">Everyone\'s talking. See what they\'re saying.</string>
     <string name="move_around"></string>
-    <string name="desc">Scribble</string>
+    <string name="desc">Scribbler</string>
+    <string name="scribbler_title">Scribbler</string>
 
 </resources>
